@@ -1,0 +1,33 @@
+.item-list-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.item-list-container h1 {
+  color: #282c34;
+  margin-bottom: 1rem;
+}
+
+.item-list-container p {
+  color: #666;
+}
+
+.product-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.product-item {
+  border: 1px solid #eee;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.product-item a { color: inherit; text-decoration: none; display:flex; align-items:center; }
